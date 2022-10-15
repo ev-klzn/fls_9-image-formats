@@ -63,7 +63,7 @@ body {
 .container {
     margin: auto;
     max-width: 1020px;
-    background: url(../img/bg.png) right 0 no-repeat;
+    background: url(../img/bg.png) 100% 0 no-repeat;
     background-color: #dfdddd;
 }
 
