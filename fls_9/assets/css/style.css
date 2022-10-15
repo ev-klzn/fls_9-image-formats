@@ -1,0 +1,120 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    /* color: #000; */
+    /* font-family:""; */
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+
+.container {
+    margin: auto;
+    max-width: 1020px;
+    background: url(../img/bg.png) right 0 no-repeat;
+    background-color: #dfdddd;
+}
+
+.pet__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.card {
+    max-width: 324px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px grey;
+    border-radius: 25px;
+
+    background-color: rgb(248, 244, 244);
+}
+
+.body {
+    padding: 50px 40px;
+}
+
+.icon__pet {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title__pet {
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 137%;
+    color: #F2726F;
+}
+
+.text__pet {
+    padding: 20px 0;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
